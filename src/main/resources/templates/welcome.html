@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Welcome</title>
+</head>
+<body>
+
+
+{{{type}}}<br/>
+
+Hello {{name}}<br/>
+You have just won {{value}} dollars!<br/>
+
+<br/>
+<b>조건문</b><br/>
+{{#in_ca}}
+Well, {{taxed_value}} dollars, after taxes.<br/>
+{{/in_ca}}
+
+
+<br/>
+<b>html 태그 포함</b>
+* {{company}}	<br/>
+* {{{company}}}	<br/>
+
+<br/>
+<b>for문</b><br/>
+{{#repo}}
+  {{name}}<br/>
+{{/repo}}
+
+
+
+
+
+</body>
+</html>
